@@ -1,0 +1,15 @@
+1. Collect all harvests from files in ../2005, ../2006, ... and save
+		- a list of all harvests to output/data.csv
+		- a list of harvests grouped by plant/part.
+
+   $ python3 collect_data.py
+
+2. If the files from step 1 are correct. Calculate the range and average dates for each harvest.
+
+   $ python3 range_and_average.py
+
+3. If the files from step 2 correct. Update the SPC files in ../SPC based on the
+   data in geordende_oogsten_bereik_gem.csv
+
+   $ python3 update_specs.py
+   
